@@ -19,6 +19,7 @@ ChatWithRider는 손님과 배달원(라이더) 간의 매칭 및 실시간 소�
 - **인증**: Google Sign-In
 
 ## 📁 프로젝트 구조
+```
 chatrider/
 ├── lib/
 │ ├── main.dart # 앱 진입점 및 Firebase 초기화
@@ -34,6 +35,7 @@ chatrider/
 ├── android/ # 안드로이드 플랫폼 구성
 ├── ios/ # iOS 플랫폼 구성
 └── pubspec.yaml # 의존성 관리
+```
 
 ## 🔍 시스템 아키텍처
 ```mermaid
