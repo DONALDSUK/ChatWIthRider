@@ -23,7 +23,7 @@ class _ChatScreen extends State<ChatScreen> {
   @override
   void initState() {
     super.initState();
-    _channel = IOWebSocketChannel.connect(Uri.parse('ws://3.34.200.253'));
+    _channel = IOWebSocketChannel.connect(Uri.parse('웹소켓'));
 
     _channel.stream.listen((message) {
       setState(() {
